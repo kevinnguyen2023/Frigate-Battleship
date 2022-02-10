@@ -1,0 +1,13 @@
+input.txt
+10
+e1
+f1
+g1
+h1
+c2
+c3
+c4
+c5
+g2
+g6
+g7
