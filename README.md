@@ -1,5 +1,9 @@
-# Frigate-Battleship-Game
+# Frigate Battleship Game
 Developed a program that simulates battleship game in C and compiled in Linux. Utilizes dynamic memory allocation, pointers, file I/O, and string manipulations. Wrote a two-dimensional array of characters that stores the current state of the game (dynamic memory allocation). The player must destroy ships that are hidden from the computer before running out of ammunition to win this game using keyboard inputs.
 
 # Game Description
 The user specifies at the beginning of the game the size of the grid; it will always be square and any size between 5 and 20. The player gets n shells, where n is 1/2 the grid size squared. The number of shells is rounded down to the next smallest integer value. The computer next randomly places four ships (one carrier of 5 squares, one battleship of 4 squares, and two frigates of 2 squares) randomly inside the grid. Ships must fit inside the grid and cannot be placed on top of one another. Coordinates are noted by row/column, where row is a number and column a letter. A player can enter coordinates either row or column first (i.e., 1a or A1). Upper or lower case letters are allowed. White space is not allowed. Coordinates are checked for validity; they must lie within the grid and a player can enter a coordinate only once per game. A ship is "destroyed" when over 70% of its structure has been hit. When a carrier or battleship is destroyed, its type ("c" or "b") is displayed on the screen filling the rest of the ship's location.  
+
+# Game Output
+<img width="444" alt="Screenshot 2022-11-24 at 12 45 59 AM" src="https://user-images.githubusercontent.com/79876261/203747900-4c561d57-fb64-43b4-a27d-82b51b778ea4.png">
+<img width="312" alt="Screenshot 2022-11-24 at 12 48 36 AM" src="https://user-images.githubusercontent.com/79876261/203748110-b9b8b216-adca-40a3-881b-5d2b21dd1cd2.png">
